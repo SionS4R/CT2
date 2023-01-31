@@ -29,4 +29,4 @@ if __name__ == "__main__":
     while True:
         exchange_rate = get_exchange_rate()
         save_to_excel(exchange_rate)    
-        time.sleep(1800) # Wait 30 minutes
+        time.sleep(180) # Wait 30 minutes
